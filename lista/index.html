@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lista de visitas · Parque Residencial Papiro · Leonardo Álvarez López</title>
+<meta name="description" content="Viviendas inscritas para la evaluación de daños">
+<meta property="og:title" content="Lista de visitas · Parque Residencial Papiro · Leonardo Álvarez López"><meta property="og:description" content="Viviendas inscritas para la evaluación de daños">
+<meta name="robots" content="noindex">
+<style>body{margin:0;background:#14181C;color:#A3A8AD;font:15px Arial,sans-serif}p{padding:28px 20px}</style>
+</head><body><p id="c">Cargando…</p>
+<script>
+fetch("https://dssvnkjnqmbdrzxfcrkp.supabase.co/rest/v1/rpc/pagina",{method:"POST",headers:{apikey:"sb_publishable__bpMnkAJHHJX9DjL_g1R4A_NP5_3H0P",Authorization:"Bearer sb_publishable__bpMnkAJHHJX9DjL_g1R4A_NP5_3H0P","Content-Type":"application/json"},body:JSON.stringify({p_nombre:"papiro_lista"})})
+.then(function(r){if(!r.ok)throw 0;return r.json();})
+.then(function(h){if(!h)throw 0;document.open();document.write(h);document.close();})
+.catch(function(){document.getElementById("c").textContent="No se pudo cargar la página. Revise su conexión e intente de nuevo en un momento.";});
+</script>
+</body></html>
